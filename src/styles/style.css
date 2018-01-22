@@ -328,7 +328,7 @@ h1::after {
   width: 100%;
 }
 
-.aya::after, .cannon::after, .latex::after, .trendcast::after {
+.aya::after, .cannon::after, .latex::after, .trendcast::after, .desktop-buddy::after {
   content: "";
   background-position: center !important;
   background-size: cover !important;
@@ -356,8 +356,12 @@ h1::after {
   background-image: url('../img/trendcast.jpg');
 }
 
+.desktop-buddy::after {
+  background-image: url('../img/desktop-buddy.jpg');
+}
+
 .project-box:hover .aya::after, .project-box:hover .latex::after,
-.project-box:hover .cannon::after, .project-box:hover .trendcast::after {
+.project-box:hover .cannon::after, .project-box:hover .trendcast::after, .project-box:hover .desktop-buddy::after {
   opacity: 0.7;
 }
 

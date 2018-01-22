@@ -31,6 +31,14 @@ class ProjectsPage extends React.Component {
             caption='Chrome extension to render LaTeX in Messenger.'
           />
           <Project
+            name='Desktop Buddy'
+            classes='desktop-buddy link-box'
+            href='http://devpost.com/software/desktopbuddy'
+            caption='Remotely control desktop input via smartphone.'
+          />
+        </div>
+        <div className='project-row'>
+          <Project
             name='Trendcast'
             classes='trendcast link-box'
             href='http://devpost.com/software/trendcast'
