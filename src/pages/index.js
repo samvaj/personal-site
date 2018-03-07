@@ -10,10 +10,11 @@ class IndexPage extends React.Component {
         </div>
 				<h2>Hello world!</h2>
 				<p className='about-text'>
-					I'm currently a first year <span className='blue'>software engineering
-					student</span> at the University of Waterloo. I'm interested in
-					<span className='green'> full-stack web development</span> and
-					<span className='green'> machine learning</span>. When I'm not programming,
+					I'm currently a <span className='blue'>software engineering
+					student</span> at the University of Waterloo. My main interests are
+					<span className='green'> full-stack web development</span>,
+					<span className='green'> computer graphics</span> and
+					<span className='green'> deep learning</span>. When I'm not programming,
 					you can find me playing underwater hockey or the trombone.
 				</p>
 				<div className='nav'>
