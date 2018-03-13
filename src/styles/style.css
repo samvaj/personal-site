@@ -1,17 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,700|Muli:300,400');
-@import url('http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
 }
 
-body {
-  min-height: 100%;
-}
+body { min-height: 100%; }
 
 html {
     background-image: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.10)),
@@ -20,7 +15,7 @@ html {
     background-position: center;
     background-size: cover;
     background-color: #02111B;
-    color: #fcfcfc;
+    color: #fff;
     font-family: 'Muli', 'Arial', sans-serif;
     font-weight: 300;
     font-size: 20px;
@@ -68,9 +63,9 @@ html {
 
 button {
   font-family: 'Raleway';
-  color: #fcfcfc;
+  color: #fff;
   outline: none;
-  border: 1px solid #fcfcfc;
+  border: 1px solid #fff;
   padding: 10px 20px;
   text-decoration: none;
   text-transform: uppercase;
@@ -81,7 +76,6 @@ button {
   margin-bottom: 20px;
   cursor: pointer;
   transition: all 0.05s ease-out;
-  -webkit-transition: all 0.05s ease-out;
 }
 
 /* CANVAS */
@@ -135,21 +129,10 @@ h1::after {
   line-height: 1.6;
 }
 
-.green, .blue, .purple {
-  font-weight: 400 !important;
-}
-
-.green {
-  color: #79B773;
-}
-
-.blue {
-  color: #49ACFE;
-}
-
-.purple {
-  color: #A673A8;
-}
+.green, .blue, .purple { font-weight: 400 !important; }
+.green { color: #79B773; }
+.blue { color: #49ACFE; }
+.purple { color: #A673A8; }
 
 .button-blue:hover {
   color: #49ACFE;
@@ -168,9 +151,7 @@ h1::after {
   width: 900px;
 }
 
-.projects h1 {
-  font-size: 350%;
-}
+.projects h1 { font-size: 350%; }
 
 .projects h1:after {
   background-color: #49ACFE;
@@ -186,12 +167,10 @@ h1::after {
   margin: 50px auto 0px auto;
   max-width: 110px;
   text-decoration: none;
-  color: #fcfcfc;
+  color: #fff;
 }
 
-.projects button {
-  margin: 0px;
-}
+.projects button { margin: 0px 0px 25px 0px; }
 
 .project-box {
   overflow: hidden;
@@ -207,12 +186,9 @@ h1::after {
   height: 190px;
   background: rgba(0,0,0,0.2);
   transition: 0.3s;
-  -webkit-transition: 0.3s;
 }
 
-.project-span {
-  display: block;
-}
+.project-span { display: block; }
 
 .project-box::before, .project-box::after {
   content:'';
@@ -221,8 +197,7 @@ h1::after {
   transform: scaleX(0);
   position: absolute;
   transition: all 0.2s linear;
-  -webkit-transition: all 0.2s linear;
-  background: #fcfcfc;
+  background: #fff;
 }
 
 .project-span::before, .project-span::after {
@@ -232,7 +207,7 @@ h1::after {
   transform: scaleY(0);
   position: absolute;
   transition: all 0.2s linear;
-  background: #fcfcfc;
+  background: #fff;
 }
 
 .project-box:hover::before, .project-box:hover::after {
@@ -243,32 +218,19 @@ h1::after {
   transform: scaleY(380);
 }
 
-.project-box::before {
-  right: 0; top: 0;
-}
-
-.project-box::after {
-  left: 0; bottom: 0;
-}
-
-.project-box span::before {
-  left: 0; top: 0;
-}
-
-.project-box span::after {
-  right: 0; bottom: 0;
-}
+.project-box::before { right: 0; top: 0; }
+.project-box::after { left: 0; bottom: 0; }
+.project-box span::before { left: 0; top: 0; }
+.project-box span::after { right: 0; bottom: 0; }
 
 .project-box span::before, .project-box span::after,
 .project-box:hover::before, .project-box:hover::after {
   transition-delay: 0.2s;
-  -webkit-transition-delay: 0.2s;
 }
 
 .project-box::before, .project-box::after,
 .project-box:hover span::before, .project-box:hover span::after {
   transition-delay: 0s;
-  -webkit-transition-delay: 0s;
 }
 
 .project-name {
@@ -279,7 +241,6 @@ h1::after {
   top: 0; left: 0; right: 0; bottom: 0;
   padding-top: 80px;
   transition: 0.35s;
-  -webkit-transition: 0.35s;
 }
 
 .project-name:after {
@@ -291,7 +252,6 @@ h1::after {
   transform: scaleX(0);
   margin: 20px auto 10px auto;
   transition: 0.15s;
-  -webkit-transition: 0.15s;
 }
 
 .caption {
@@ -303,11 +263,9 @@ h1::after {
   opacity: 0;
   padding-bottom: 0px;
   transition: 0.35s;
-  -webkit-transition: 0.35s;
 }
 
 .project-box:hover .project-name {
-  -webkit-transform:translate3d(0,-40px,0);
   transform:translate3d(0,-40px,0);
 }
 
@@ -319,7 +277,6 @@ h1::after {
 
 .project-box:hover .caption {
   opacity: 1;
-  -webkit-transform:translate3d(0,-35px,0);
   transform:translate3d(0,-35px,0);
 }
 
@@ -328,7 +285,7 @@ h1::after {
   width: 100%;
 }
 
-.aya::after, .cannon::after, .latex::after, .trendcast::after, .desktop-buddy::after {
+.link-box::after {
   content: "";
   background-position: center !important;
   background-size: cover !important;
@@ -337,33 +294,15 @@ h1::after {
   position: absolute;
   z-index: -1;
   transition: 0.3s;
-  -webkit-transition: 0.3s;
 }
 
-.aya::after {
-  background-image: url('../img/aya.jpg');
-}
+.aya::after { background-image: url('../img/aya.jpg'); }
+.cannon::after { background-image: url('../img/cannon.jpg'); }
+.latex::after { background-image: url('../img/messenger-latex.jpg'); }
+.trendcast::after { background-image: url('../img/trendcast.jpg'); }
+.desktop-buddy::after { background-image: url('../img/desktop-buddy.jpg'); }
 
-.cannon::after {
-  background-image: url('../img/cannon.jpg');
-}
-
-.latex::after {
-  background-image: url('../img/messenger-latex.jpg');
-}
-
-.trendcast::after {
-  background-image: url('../img/trendcast.jpg');
-}
-
-.desktop-buddy::after {
-  background-image: url('../img/desktop-buddy.jpg');
-}
-
-.project-box:hover .aya::after, .project-box:hover .latex::after,
-.project-box:hover .cannon::after, .project-box:hover .trendcast::after, .project-box:hover .desktop-buddy::after {
-  opacity: 0.7;
-}
+.project-box:hover .link-box::after { opacity: 0.7; }
 
 /* FOOTER */
 
@@ -376,30 +315,10 @@ h1::after {
   height: 105px;
 }
 
-.footer a {
-  font-size: 200%;
-  outline: 0;
-  display: inline-block;
-  color: #fcfcfc;
-  text-decoration: none;
-}
-
-.footer .icon {
-  display: block;
-  padding: 0px 15px;
-}
-
-.footer .git:hover {
-  color: #917CAF;
-}
-
-.footer .linkedin:hover {
-  color: #49ACFE;
-}
-
-.footer .mail:hover {
-  color: #79B773;
-}
+.ionicon { margin: 0px 15px; }
+.git:hover { fill: #917CAF; }
+.linkedin:hover { fill: #49ACFE; }
+.mail:hover { fill: #79B773; }
 
 /* NOT FOUND */
 .notfound h2 {
