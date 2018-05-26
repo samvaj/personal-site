@@ -1,17 +1,12 @@
 <template>
   <div id="app">
-    <MainPage />
+    <router-view class="view"></router-view>
   </div>
 </template>
 
 <script>
-  import MainPage from './components/MainPage.vue'
-
   export default {
     name: 'app',
-    components: {
-      MainPage
-    }
   }
 </script>
 
@@ -22,7 +17,6 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: #333;
-    margin-top: 150px;
     font-size: 16px;
   }
 </style>
