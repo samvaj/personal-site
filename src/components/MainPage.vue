@@ -10,7 +10,6 @@
     <div class="links">
       <a href="./Resume.pdf" target="_blank">Résumé</a>
       <a href="https://github.com/edwinzhng" target="_blank">Github</a>
-      <a href="https://linkedin.com/in/edwin-zhang" target="_blank">LinkedIn</a>
       <a href="mailto:edwinzhang64@gmail.com" target="_blank">Email</a>
     </div>
   </div>
